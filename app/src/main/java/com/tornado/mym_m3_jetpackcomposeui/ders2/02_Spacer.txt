@@ -1,0 +1,9 @@
+
+MODİFİERS {
+Spacer -> Bosluk bırakmayı sağlar
+}
+
+.weight() ------------------------------------------------------------------------ Genislikte bosluk
+        weight = 1f
+.height() ----------------------------------------------------------------------- Yukseklikte bosluk
+        height = 20.dp

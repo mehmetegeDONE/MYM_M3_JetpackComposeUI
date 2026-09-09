@@ -10,6 +10,9 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Scaffold
 import androidx.compose.ui.Modifier
 import com.tornado.mym_m3_jetpackcomposeui.ders1.SelamlamaEkrani
+import com.tornado.mym_m3_jetpackcomposeui.ders2.D322_TemelDizilimler
+import com.tornado.mym_m3_jetpackcomposeui.ders2.D326_ProfilKarti
+import com.tornado.mym_m3_jetpackcomposeui.ders2.odev.UrunGosterici
 import com.tornado.mym_m3_jetpackcomposeui.ui.theme.MYM_M3_JetpackComposeUITheme
 
 class MainActivity : ComponentActivity() {
@@ -21,9 +24,14 @@ class MainActivity : ComponentActivity() {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Box(modifier = Modifier.padding(innerPadding)) {
                         // O anki dersin ana ekranını buraya yazacağız.
-                        SelamlamaEkrani()
 
+                        // DERS-1
+                        // SelamlamaEkrani()
 
+                        // DERS-2
+                        // D322_TemelDizilimler()
+                        //D326_ProfilKarti()
+                        UrunGosterici()
                     }
                 }
             }

@@ -1,0 +1,35 @@
+MODİFİERS {
+Column -> Alt alta kutular
+Row    -> Yan yana kutular
+Box    -> Ust uste kutular
+}
+
+background() ------------------------------------------------------------------------------ Arkaplan
+        color = Color.Black
+        color = Color(0xFF...)
+        shape = RoundedCornerShape(16.dp))
+
+fillMaxSize() ------------------------------------------------------------------ Tum alanlari kaplar
+fillMaxWidth() ---------------------------------------------------------------- Tum genisliği kaplar
+fillMaxHeight() -------------------------------------------------------------- Tum yuksekliği kaplar
+
+border() ----------------------------------------------------------------------------------- Çerçeve
+        width = 2.dp
+        color = Color.Black
+        color = Color(0xFF...)
+        shape = RoundedCornerShape(16.dp))
+
+width() ------------------------------------------------------------------------- Genislik belirleme
+        width = 100.dp
+
+height() ----------------------------------------------------------------------- Yukseklik belirleme
+        height = 100.dp
+
+.padding() ----------------------------------------------------------------------- Bosluk bıraktırma
+        all = 24.dp                                                             -> Heryerden bosluk
+        vertical = 20.dp                                                        -> Ust-alt bosluk
+        horizontal = 20.dp                                                      -> Sag-sol bosluk
+        start = 20.dp                                                           -> Soldan bosluk
+        end = 20.dp                                                             -> Sagdan bolsuk
+        top = 20.dp                                                             -> Ustten bosluk
+        bottom = 20.dp                                                          -> Alltan bosluk
