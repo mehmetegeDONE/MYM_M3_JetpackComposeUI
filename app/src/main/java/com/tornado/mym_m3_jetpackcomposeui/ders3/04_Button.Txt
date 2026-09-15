@@ -1,0 +1,20 @@
+NON-MOTİFİERS { // Buttonlar
+Button         -> Içi dolu button
+OutlinedButton -> Içı dolu çerçeve button
+TextButton     -> Icı dolu yazılı button
+}
+
+onClick = {}                                                                     -> Tıklanınca yapar
+
+colors = ButtonDefaults.buttonColors(containerColor = Color.Green)                   -> Button Rengi
+         ButtonDefaults.buttonColors(containerColor = Color(0xFF...))
+
+MOTİFİERS { // Buttonlar
+Button         -> Içi dolu button
+OutlinedButton -> Içı dolu çerçeve button
+TextButton     -> Icı dolu yazılı button
+}
+
+.weight() ----------------------------------------- (2 tane buttonda kullanmalısın) Yer oranı ayırma
+        weight = 1f
+

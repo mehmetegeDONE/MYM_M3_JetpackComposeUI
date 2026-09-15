@@ -1,0 +1,8 @@
+NON-MOTİFİERS { // Buttonlar
+HorizontalDivider -> Yatay duz çizgi çizer
+VerticalDivider   -> Dikey duz çizgi çizer
+}
+
+thickness = 1.dp                                                                  -> Çizgi kalınlığı
+
+color = Color.Blue                                                                    -> Çizgi rengi

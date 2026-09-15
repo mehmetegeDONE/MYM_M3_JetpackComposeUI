@@ -1,0 +1,34 @@
+NON-MOTİFİERS { // Metinlerde sp kullanilir
+Text -> Yazi saglayan kutu
+}
+
+text = "Büyük Başlık"                                                                     -> Yazımız
+
+fontSize = 32.sp                                                                   -> Font büyüklüğü
+
+fontWeight = FontWeight.Bold                                                        -> Font kalınlık
+fontWeight = FontWeight.Light
+
+fontStyle = FontStyle.Italic                                                           -> Font stili
+
+color = Color.Red                                                                      -> Yazı rengi
+color = Color(0xFF...)
+
+lineHeight = 36.sp                                                         -> Her satır arası aralık
+
+textAlign = TextAlign.End         (modifier = Modifier.fillMaxWidth() kullanmalısın) -> Saga hizlama
+textAlign = TextAlign.Center      (modifier = Modifier.fillMaxWidth() kullanmalısın) -> Orta hizlama
+textAlign = TextAlign.Start       (modifier = Modifier.fillMaxWidth() kullanmalısın) -> Sola hizlama
+
+// modifier = Modifier.fillMaxWidth() kullanma sebebin:
+        textin kendisi kadar yer kaplaması, o yüzden saga sola gidemez.
+
+maxLines = 2                                                                      -> Maks satır izni
+
+overflow = TextOverflow.Ellipsis                                         -> Kesintide sona ... koyma
+
+MOTİFİERS { // Metinlerde sp kullanilir
+Text -> Yazi saglayan kutu
+}
+
+.clickable{} ------------------------------------------------------------------------ Tıklanılabilir
