@@ -1,28 +1,38 @@
+NON-MODİFİERS {
+Column -> Alt alta kutular
+Row    -> Yan yana kutular
+Box    -> Ust uste kutular
+}
+
+horizontalAlignment = Alignment.CenterHorizontally                                -> Yatayda ortalar
+
+verticalArrangement = Arrangement.Center                                          -> Dikeyde ortalar
+
 MODİFİERS {
 Column -> Alt alta kutular
 Row    -> Yan yana kutular
 Box    -> Ust uste kutular
 }
 
-background() ------------------------------------------------------------------------------ Arkaplan
+.background() ----------------------------------------------------------------------------- Arkaplan
         color = Color.Black
         color = Color(0xFF...)
         shape = RoundedCornerShape(16.dp))
 
-fillMaxSize() ------------------------------------------------------------------ Tum alanlari kaplar
-fillMaxWidth() ---------------------------------------------------------------- Tum genisliği kaplar
-fillMaxHeight() -------------------------------------------------------------- Tum yuksekliği kaplar
+.fillMaxSize() ----------------------------------------------------------------- Tum alanlari kaplar
+.fillMaxWidth() --------------------------------------------------------------- Tum genisliği kaplar
+.fillMaxHeight() ------------------------------------------------------------- Tum yuksekliği kaplar
 
-border() ----------------------------------------------------------------------------------- Çerçeve
+.border() ---------------------------------------------------------------------------------- Çerçeve
         width = 2.dp
         color = Color.Black
         color = Color(0xFF...)
         shape = RoundedCornerShape(16.dp))
 
-width() ------------------------------------------------------------------------- Genislik belirleme
+.width() ------------------------------------------------------------------------ Genislik belirleme
         width = 100.dp
 
-height() ----------------------------------------------------------------------- Yukseklik belirleme
+.height() ---------------------------------------------------------------------- Yukseklik belirleme
         height = 100.dp
 
 .padding() ----------------------------------------------------------------------- Bosluk bıraktırma

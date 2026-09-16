@@ -1,0 +1,49 @@
+State Yapısı
+var isim by remember {mutableStateOf("")}           <- Gorsel hafızası yok (Ekran dönerse değişir)
+var isim by rememberSaveable {mutableStateOf("")} <- Gorsel hafızası var (Ekran dönerse değişmez)
+-
+NON-MOTİFİERS { // Kullanıcdan veri alma
+OutlinedTextFeild-> Çerçeve veri alma
+TextFeild    -> Çerçevesiz veri alma
+}
+
+value = ""                                                                -> Girilen veriyi belirtir
+
+onValueChange = {yeniIsim -> isim = yeniIsim}                                -> Veri degişirse yapar
+onValueChange = {eposta = it}
+
+label = {Text("Ad Soyad")}                                                           -> Başlık metni
+
+supportingText = {Text("Luften en az 3 karakter girin")},                        -> Alt Destek metni
+
+placeholder = {Text("Adınızı soyadını girin")}                                         -> Hint metni
+
+prefix = {Text("Mesajım:")}                                                -> Baslangic Destek metni
+
+singleLine = true                                                     -> Alt satıra geçmeni engeller
+
+keyboardOptions = KeyboardOptions()                                                -> Klave ayarları
+                keyboardType = KeyboardType.Email                                    -> Email paneli
+                keyboardType = KeyboardType.Number                                    -> Sayi paneli
+                keyboardType = KeyboardType.Password                                 -> Şifre paneli
+                keyboardType = KeyboardType.NumberPassword                    -> Sayılı şifre paneli
+                keyboardType = KeyboardType.Phone                                   -> Tel No paneli
+                imeAction = ImeAction.Next                           -> Feild arası oto geçiş sağlar
+                imeAction = ImeAction.Done                            -> Bittiğinde klavyeyi kapatır
+                imeAction = ImeAction.Search                                         -> Arama sağlar
+
+visualTransformation = PasswordVisualTransformation()                  -> Veriyi gizleyerek gösterir
+
+colors = TextFieldDefaults.colors()
+colors = OutlinedTextFieldDefaults.colors()
+                        cursorColor = Color.Red                               -> Içindeki fare rengi
+                        unfocused (fokusta degilken)
+                        focusedTextColor = Color.Cyan                      -> Fokusta ise yazi rengi
+                        focusedPlaceholderColor = Color.Red                -> Fokusta ise hint rengi
+                        focusedSupportingTextColor = Color.Red       -> Fokusta ise alt destek rengi
+                        focusedLabelColor = Color.Cyan                   -> Fokusta ise baslik rengi
+                        focusedContainerColor = Color.Cyan             -> Fokusta ise arkaplan rengi
+                        focusedIndicatorColor = Color.Red               -> Fokusta ise outline rengi (Sdc Classic)
+                        focusedBorderColor = Color.Red                  -> Fokusta ise outline rengi (Sdc Outlined)
+
+

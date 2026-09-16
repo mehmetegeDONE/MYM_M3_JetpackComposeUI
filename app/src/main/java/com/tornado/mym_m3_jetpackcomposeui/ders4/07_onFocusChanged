@@ -1,0 +1,6 @@
+MODİFİERS
+
+var mesajFokusta by rememberSaveable() {mutableStateOf(false) }
+
+.onFocusChanged{} -------------------------------------------------------------------- Focusta yapar
+        yeniFokus -> mesajFokusta = yeniFokus.isFocused                          -> Fokusta ise true
