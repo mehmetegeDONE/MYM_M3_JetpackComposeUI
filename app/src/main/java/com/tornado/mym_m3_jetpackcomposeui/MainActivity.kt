@@ -20,6 +20,7 @@ import com.tornado.mym_m3_jetpackcomposeui.ders3.odev.BlogYazisi
 import com.tornado.mym_m3_jetpackcomposeui.ders4.D344_KullanicidanVeriAlma
 import com.tornado.mym_m3_jetpackcomposeui.ders4.D345_GirisYapEkrani
 import com.tornado.mym_m3_jetpackcomposeui.ders4.odev.BizeUlasinFormu
+import com.tornado.mym_m3_jetpackcomposeui.proje.projeKullaniciKayitSistemi
 import com.tornado.mym_m3_jetpackcomposeui.ui.theme.MYM_M3_JetpackComposeUITheme
 
 class MainActivity : ComponentActivity() {
@@ -49,7 +50,8 @@ class MainActivity : ComponentActivity() {
                         // DERS-4
                         // D344_KullanicidanVeriAlma()
                         // D345_GirisYapEkrani()
-                        BizeUlasinFormu()
+                        // BizeUlasinFormu()
+                        projeKullaniciKayitSistemi()
                     }
                 }
             }

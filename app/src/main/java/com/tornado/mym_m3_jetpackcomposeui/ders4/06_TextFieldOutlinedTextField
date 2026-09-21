@@ -46,4 +46,6 @@ colors = OutlinedTextFieldDefaults.colors()
                         focusedIndicatorColor = Color.Red               -> Fokusta ise outline rengi (Sdc Classic)
                         focusedBorderColor = Color.Red                  -> Fokusta ise outline rengi (Sdc Outlined)
 
+shape = RoundedCornerShape(20.dp)                                             -> Kenarları yumuşatır
+
 

@@ -1,0 +1,23 @@
+----------------------------------------------------------------------------------------------------
+horizontal -> X ekseni (Genişlik)
+vertical -> Y ekseni (Yukseklik)
+----------------------------------------------------------------------------------------------------
+
+// Box
+contentAlignment = Alignment.Center
+
+// Row
+horizontalArrangement = Arrangement.Center
+verticalAlignment = Alignment.CenterVertically
+
+// Column
+horizontalAlignment = Alignment.CenterHorizontally
+verticalArrangement = Arrangement.Center
+
+// Text
+textAlign = TextAlign.End         (modifier = Modifier.fillMaxWidth() kullanmalısın) -> Saga hizlama
+textAlign = TextAlign.Center      (modifier = Modifier.fillMaxWidth() kullanmalısın) -> Orta hizlama
+textAlign = TextAlign.Start       (modifier = Modifier.fillMaxWidth() kullanmalısın) -> Sola hizlama
+
+modifier = Modifier.fillMaxWidth() kullanma sebebin: textin kendisi kadar yer kaplaması,
+                                                                        o yüzden saga sola gidemez.

@@ -1,0 +1,12 @@
+                                            MODİFİERS
+
+var mesajFokusta by rememberSaveable() {mutableStateOf(false) }
+var ad by rememberSaveable() {mutableStateOf("") }
+
+.onFocusChanged{} -------------------------------------------------------------------- Focusta yapar
+        yeniFokus -> mesajFokusta = yeniFokus.isFocused                          -> Fokusta ise true
+
+                                         NON-MODİFİERS
+
+onValueChange{}                                                     -> Girilen değer değişince yapar (Feild)
+        yeniAd -> ad = yeniAd
