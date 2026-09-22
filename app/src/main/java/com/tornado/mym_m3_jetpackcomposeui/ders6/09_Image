@@ -1,0 +1,25 @@
+NON-MOTİFİERS { // painter ve contentDescription belirtmek zorunludur!
+Image -> Resim
+}
+
+painter = painterResource(id = R.drawable.profil_resmi)                              -> Resim ekleme
+
+contentDescription = "Profil resmi"                                              -> Resim açıklaması
+
+contentScale = ContentScale.Crop                                          -> Resmi bozmadan sığdırır
+               ContentScale.Fit                                                   -> Resimle oynamaz
+               ContentScale.FillBounds                                   -> Resmi bozararak sığdırır
+
+MOTİFİERS { // Metinlerde sp kullanilir
+Image -> Resim
+}
+
+.size() ------------------------------------------------------------- Yukseklik ve genişliği ayarlar
+        size = 250.dp
+
+.clip() --------------------------------------------------------------------------- Şekli değiştirir
+        shape = CircleShape                                                  -> Şekli yuvarlak yapar
+
+.blur() ------------------------------------------------------------------------------ Resmi blurlar
+        radius = 1.dp
+

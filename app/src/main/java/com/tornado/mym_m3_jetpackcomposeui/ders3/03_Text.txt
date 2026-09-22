@@ -16,6 +16,8 @@ color = Color(0xFF...)
 
 lineHeight = 36.sp                                                         -> Her satır arası aralık
 
+textDecoration = TextDecoration.Underline                                 -> Yazı altına çizgi çeker
+
 textAlign = TextAlign.End         (modifier = Modifier.fillMaxWidth() kullanmalısın) -> Saga hizlama
 textAlign = TextAlign.Center      (modifier = Modifier.fillMaxWidth() kullanmalısın) -> Orta hizlama
 textAlign = TextAlign.Start       (modifier = Modifier.fillMaxWidth() kullanmalısın) -> Sola hizlama

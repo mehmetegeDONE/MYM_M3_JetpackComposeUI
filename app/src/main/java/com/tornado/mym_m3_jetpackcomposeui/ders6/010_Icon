@@ -1,0 +1,25 @@
+KUTUPHANE EKLENTİSİDİR (Grandle Scripts'e gel ve build.grandle.kts(Module: app)'e yapıştır
+// Source: https://mvnrepository.com/artifact/org.jetbrains.compose.material/material-icons-extended
+implementation("org.jetbrains.compose.material:material-icons-extended:1.7.3")
+
+NON-MOTİFİERS { // imageVector ve contentDescription eklemek zorunludur
+Icon -> Ikon
+}
+
+imageVector = Icons.Default.Favorite                                                  -> Icon ekleme
+
+contentDescription = "Kullanıcı"                                                  -> Icon açıklaması
+
+tint = Color.Red                                                                       -> Icon rengi
+
+MOTİFİERS {
+Icon -> Ikon
+}
+
+.size() ------------------------------------------------------------- Yukseklik ve genişliği ayarlar
+        size = 250.dp
+
+.clip() --------------------------------------------------------------------------- Şekli değiştirir
+        shape = CircleShape                                                  -> Şekli yuvarlak yapar
+
+

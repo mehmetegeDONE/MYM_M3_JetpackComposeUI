@@ -20,6 +20,11 @@ import com.tornado.mym_m3_jetpackcomposeui.ders3.odev.BlogYazisi
 import com.tornado.mym_m3_jetpackcomposeui.ders4.D344_KullanicidanVeriAlma
 import com.tornado.mym_m3_jetpackcomposeui.ders4.D345_GirisYapEkrani
 import com.tornado.mym_m3_jetpackcomposeui.ders4.odev.BizeUlasinFormu
+import com.tornado.mym_m3_jetpackcomposeui.ders6.D362_ResimEkleme
+import com.tornado.mym_m3_jetpackcomposeui.ders6.D363_IconEkleme
+import com.tornado.mym_m3_jetpackcomposeui.ders6.D364_KartEkleme
+import com.tornado.mym_m3_jetpackcomposeui.ders6.D365_SosyalMedyaGonderisi
+import com.tornado.mym_m3_jetpackcomposeui.ders6.odev.YemekTarifKarti
 import com.tornado.mym_m3_jetpackcomposeui.proje.projeKullaniciKayitSistemi
 import com.tornado.mym_m3_jetpackcomposeui.ui.theme.MYM_M3_JetpackComposeUITheme
 
@@ -51,7 +56,14 @@ class MainActivity : ComponentActivity() {
                         // D344_KullanicidanVeriAlma()
                         // D345_GirisYapEkrani()
                         // BizeUlasinFormu()
-                        projeKullaniciKayitSistemi()
+                        // projeKullaniciKayitSistemi()
+
+                        // DERS-6
+                        // D362_ResimEkleme()
+                        // D363_IconEkleme()
+                        // D364_KartEkleme()
+                        // D365_SosyalMedyaGonderisi()
+                        YemekTarifKarti()
                     }
                 }
             }

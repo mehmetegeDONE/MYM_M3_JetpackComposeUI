@@ -7,12 +7,15 @@ vertical -> Y ekseni (Yukseklik)
 contentAlignment = Alignment.Center
 
 // Row
-horizontalArrangement = Arrangement.Center
+horizontalArrangement = Arrangement.Center                                     -> Elemanları ortalar
+horizontalArrangement = Arrangement.SpaceBetween                 -> Elemanları eşit aralıkta dağıtır
 verticalAlignment = Alignment.CenterVertically
 
 // Column
 horizontalAlignment = Alignment.CenterHorizontally
 verticalArrangement = Arrangement.Center
+
+
 
 // Text
 textAlign = TextAlign.End         (modifier = Modifier.fillMaxWidth() kullanmalısın) -> Saga hizlama

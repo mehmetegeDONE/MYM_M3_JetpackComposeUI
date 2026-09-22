@@ -22,6 +22,9 @@ prefix = {Text("Mesajım:")}                                                -> B
 
 singleLine = true                                                     -> Alt satıra geçmeni engeller
 
+leadingIcon = {Icon()}                                                           -> Başa Icon ekleme
+trailingIcon = {Icon()}                                                          -> Sona Icon ekleme
+
 keyboardOptions = KeyboardOptions()                                                -> Klave ayarları
                 keyboardType = KeyboardType.Email                                    -> Email paneli
                 keyboardType = KeyboardType.Number                                    -> Sayi paneli

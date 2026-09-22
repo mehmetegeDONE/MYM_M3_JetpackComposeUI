@@ -1,0 +1,22 @@
+NON-MOTİFİERS {
+Card -> Kart ekleme
+}
+
+
+shape = RoundedCornerShape()                                               -> Kart kenar yumuşaklığı
+                        size = 20.dp
+
+colors = CardDefaults.cardColors()                                                     -> Kart rengi
+                        containerColor = Color.Red
+
+elevation = CardDefaults.cardElevation()                                    -> Normalde kart gölgesi
+                        defaultElevation = 12.dp
+
+border = BorderStroke()                                                             -> Border ekleme
+                    width = 1.dp                                                         -> Kalınlık
+                    color = Color.DarkGray                                                   -> Renk
+
+
+MOTİFİERS { // Metinlerde sp kullanilir
+Card -> Kart ekleme
+}
