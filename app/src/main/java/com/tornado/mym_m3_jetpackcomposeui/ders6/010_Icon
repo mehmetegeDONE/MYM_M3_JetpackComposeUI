@@ -16,10 +16,3 @@ MOTİFİERS {
 Icon -> Ikon
 }
 
-.size() ------------------------------------------------------------- Yukseklik ve genişliği ayarlar
-        size = 250.dp
-
-.clip() --------------------------------------------------------------------------- Şekli değiştirir
-        shape = CircleShape                                                  -> Şekli yuvarlak yapar
-
-
