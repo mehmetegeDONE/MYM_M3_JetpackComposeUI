@@ -12,7 +12,10 @@ contentDescription = "Kullanıcı"                                              
 
 tint = Color.Red                                                                       -> Icon rengi
 
-MOTİFİERS {
+MOTİFİERS { // imageVector ve contentDescription eklemek zorunludur
 Icon -> Ikon
 }
+
+.size() ------------------------------------------------------------- Yukseklik ve genişliği ayarlar
+        size = 250.dp
 

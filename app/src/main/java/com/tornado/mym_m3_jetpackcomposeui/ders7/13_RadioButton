@@ -1,0 +1,19 @@
+NON-MOTİFİERS {
+RadioButton -> Sadece birinde true olabilen yapılar
+}
+
+selected = false                                                               -> Tiklik başlangıçta
+
+onClick = {yeniDeger -> deger = yeniDeger}                          -> Tiklik durumu değişirse yapar
+
+enabled = true                                                                  -> Kullanıma kapa-aç
+
+colors = RadioButtonDefaults.colors()
+                        disabled (kullanıma kapalı)
+                        selectedColor = Color.Red                               -> Seçidiğinde rengi
+                        unselectedColor = Color.Red                          -> Seçilmediğinde rengi
+
+MOTİFİERS { // Metinlerde sp kullanilir
+RadioButton -> Sadece birinde true olabilen yapılar
+}
+

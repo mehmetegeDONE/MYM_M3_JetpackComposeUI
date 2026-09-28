@@ -1,0 +1,24 @@
+NON-MOTİFİERS {
+Checkbox -> True false veren şalter
+}
+
+checked = false                                                                -> Tiklik başlangıçta
+
+onCheckedChange = {yeniDeger -> deger = yeniDeger}                  -> Tiklik durumu değişirse yapar
+
+enabled = true                                                                  -> Kullanıma kapa-aç
+
+colors = SwitchDefaults.colors()
+                    checked (tiklenmis)
+                    disabled (kullanıma kapalı)
+                    uncheckedThumbColor = Color.Red                            -> Tiksiz Thumb rengi
+                    uncheckedIconColor = Color.Cyan                       -> Tiksiz Thumb Icon rengi
+                    uncheckedTrackColor = Color.Blue                        -> Tiksiz Arkaplan rengi
+                    uncheckedBorderColor = Color.Red                          -> Tiksiz Border rengi
+
+
+thumbContent = {Icon()}                                                      -> Thumba eleman ekleme
+
+MOTİFİERS {
+Checkbox -> True false veren şalter
+}

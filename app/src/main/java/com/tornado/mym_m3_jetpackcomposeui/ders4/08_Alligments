@@ -15,6 +15,12 @@ verticalAlignment = Alignment.CenterVertically
 horizontalAlignment = Alignment.CenterHorizontally
 verticalArrangement = Arrangement.Center
 
+// LazyColumn - LazyRow
+horizontalArrangement = Arrangement.spacedBy()                            -> X'de items arası bosluk
+                                space = 12.dp
+
+verticalArrangement = Arrangement.spacedBy()                                    -> Y'de items boşluk
+                                space = 12.dp
 
 
 // Text

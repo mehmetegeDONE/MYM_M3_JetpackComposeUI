@@ -1,0 +1,20 @@
+NON-MOTİFİERS {
+Checkbox -> True false veren kutular
+}
+
+checked = false                                                                -> Tiklik başlangıçta
+
+onCheckedChange = {yeniDeger -> deger = yeniDeger}                  -> Tiklik durumu değişirse yapar
+
+enabled = true                                                                  -> Kullanıma kapa-aç
+
+colors = CheckboxDefaults.colors()
+                    unchecked (tiklenmemis)
+                    disabled (kullanıma kapalı)
+                    checkedColor = Color.Red                                 -> Tiklenmis kutu rengi
+                    checkmarkColor = Color.Red                                   -> Tik işaret rengi
+
+MOTİFİERS {
+Checkbox -> True false veren kutular
+}
+

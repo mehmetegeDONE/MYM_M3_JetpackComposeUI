@@ -17,6 +17,6 @@ border = BorderStroke()                                                         
                     color = Color.DarkGray                                                   -> Renk
 
 
-MOTİFİERS { // Metinlerde sp kullanilir
+MOTİFİERS {
 Card -> Kart ekleme
 }

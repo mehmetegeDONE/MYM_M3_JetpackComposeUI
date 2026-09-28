@@ -25,6 +25,17 @@ import com.tornado.mym_m3_jetpackcomposeui.ders6.D363_IconEkleme
 import com.tornado.mym_m3_jetpackcomposeui.ders6.D364_KartEkleme
 import com.tornado.mym_m3_jetpackcomposeui.ders6.D365_SosyalMedyaGonderisi
 import com.tornado.mym_m3_jetpackcomposeui.ders6.odev.YemekTarifKarti
+import com.tornado.mym_m3_jetpackcomposeui.ders7.D372_TekliveCokluSecim
+import com.tornado.mym_m3_jetpackcomposeui.ders7.D373_Slider
+import com.tornado.mym_m3_jetpackcomposeui.ders7.D374_Switch
+import com.tornado.mym_m3_jetpackcomposeui.ders7.D375_SiparisEkrani
+import com.tornado.mym_m3_jetpackcomposeui.ders7.odev.AyarlarSayfasi
+import com.tornado.mym_m3_jetpackcomposeui.ders8.D382_LazyColumn
+import com.tornado.mym_m3_jetpackcomposeui.ders8.D383_DinamikListeUretimi
+import com.tornado.mym_m3_jetpackcomposeui.ders8.D383_LazyRow
+import com.tornado.mym_m3_jetpackcomposeui.ders8.D385_RehberUygulama
+import com.tornado.mym_m3_jetpackcomposeui.ders8.odev.KartListesi
+import com.tornado.mym_m3_jetpackcomposeui.ders8.odev.KartListesi2
 import com.tornado.mym_m3_jetpackcomposeui.proje.projeKullaniciKayitSistemi
 import com.tornado.mym_m3_jetpackcomposeui.ui.theme.MYM_M3_JetpackComposeUITheme
 
@@ -63,7 +74,22 @@ class MainActivity : ComponentActivity() {
                         // D363_IconEkleme()
                         // D364_KartEkleme()
                         // D365_SosyalMedyaGonderisi()
-                        YemekTarifKarti()
+                        // YemekTarifKarti()
+
+                        // DERS 7
+                        // D372_TekliveCokluSecim()
+                        // D373_Slider()
+                        // D374_Switch()
+                        // D375_SiparisEkrani()
+                        // AyarlarSayfasi()
+
+                        // DERS 8
+                        // D382_LazyColumn()
+                        // D383_LazyRow()
+                        // D383_DinamikListeUretimi()
+                        // D385_RehberUygulama()
+                        // KartListesi()
+                        KartListesi2()
                     }
                 }
             }

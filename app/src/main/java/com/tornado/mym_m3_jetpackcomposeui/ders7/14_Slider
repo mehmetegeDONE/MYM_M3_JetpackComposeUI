@@ -1,0 +1,26 @@
+NON-MOTİFİERS {
+Slider -> Aralıklı kaydıraçlar
+}
+
+value = 5f                                                              -> Slider değeri başlangıçta
+
+onValueChange = {yeniDeger -> deger = yeniDeger}               -> Slider değeri değiştirilirse yapar
+
+valueRange = 1f < .. < 10f                                    -> Slider baş-bitis degerleri uzunluğu
+
+steps = 1                                                                    -> Orantılı seçme ayari
+
+enabled = true                                                                  -> Kullanıma kapa-aç
+
+SliderDefaults.colors()
+                    disabled (kullanıma kapalı)
+                    thumbColor = Color.Cyan                                           -> Thumb rengi
+                    activeTrackColor = Color.Cyan                                 -> Aktif bar rengi
+                    inactiveTrackColor = Color.Red                                -> Pasif bar rengi
+                    activeTickColor                                     -> Aktif yerdeki noktacıklar
+                    inactiveTickColor = Color.Red                       -> Pasif yerdeki noktacıklar
+
+MOTİFİERS {
+Slider -> Aralıklı kaydıraçlar
+}
+

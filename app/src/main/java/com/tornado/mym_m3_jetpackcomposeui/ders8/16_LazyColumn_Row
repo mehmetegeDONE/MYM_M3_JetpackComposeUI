@@ -1,0 +1,24 @@
+NON-MOTİFİERS {
+LazyColumn -> Fori mantığında çalışan, optimize version
+}
+
+contentPadding = PaddingValues()
+                            all = 16.dp                                   -> Heryerden padding ekler
+                            horizontal                                  -> Baş ve sona padding ekler
+                            vertical                                    -> Üst ve alta padding ekler
+
+horizontalArrangement = Arrangement.spacedBy()                            -> X'de items arası bosluk
+                                space = 12.dp
+
+verticalArrangement = Arrangement.spacedBy()                                    -> Y'de items boşluk
+                                space = 12.dp
+
+verticalArrangement = Arrangement.Center
+horizontalAlignment = Alignment.CenterHorizontally                         -> Yatayda ortalama yapar
+
+
+
+
+MOTİFİERS {
+Checkbox -> True false veren şalter
+}

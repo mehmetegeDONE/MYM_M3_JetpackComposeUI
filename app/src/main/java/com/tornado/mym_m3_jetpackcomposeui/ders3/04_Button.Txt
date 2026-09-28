@@ -2,6 +2,7 @@ NON-MOTİFİERS { // Buttonlar
 Button         -> Içi dolu button
 OutlinedButton -> Içı dolu çerçeve button
 TextButton     -> Icı boş yazılı button
+IconButton     -> Icı boş icon koymak için button
 }
 
 onClick = {}                                                                     -> Tıklanınca yapar

@@ -14,10 +14,14 @@ Row    -> Yan yana kutular
 Box    -> Ust uste kutular
 }
 
+.verticalScroll() ------------------------------------------------------------------ Kaydırma sağlar
+                rememberScrollState()
+
 .background() ----------------------------------------------------------------------------- Arkaplan
         color = Color.Black
         color = Color(0xFF...)
-        shape = RoundedCornerShape(16.dp))
+        shape = RoundedCornerShape(16.dp))                                       -> Köşeleri yuvarla
+                CircleShape                                                         -> Köşe yuvarlak
 
 .fillMaxSize() ----------------------------------------------------------------- Tum alanlari kaplar
 .fillMaxWidth() --------------------------------------------------------------- Tum genisliği kaplar

@@ -10,7 +10,7 @@ contentScale = ContentScale.Crop                                          -> Res
                ContentScale.Fit                                                   -> Resimle oynamaz
                ContentScale.FillBounds                                   -> Resmi bozararak sığdırır
 
-MOTİFİERS { // Metinlerde sp kullanilir
+MOTİFİERS { // painter ve contentDescription belirtmek zorunludur!
 Image -> Resim
 }
 
