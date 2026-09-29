@@ -1,0 +1,30 @@
+NON-MOTİFİERS { // @OptIn(ExperimentalMaterial3Api::class) olmadan hata verir (ilerde kaldırılabilir)
+Scaffold -> Bar ekler
+} icBosluklar -> LAMBDA
+
+
+
+topBar = {TopAppBar()}                                                             -> Uste bar ekler
+            title = { Text("Ana Başlık") }                                      -> Bara başlık ekler
+            navigationIcon = {IconButton}                                          -> Bara icon ekle
+            colors = TopAppBarDefaults.topAppBarColors()
+                            containerColor = Color.DarkGray                        -> Arkaplan rengi
+                            titleContentColor = Color.White                          -> Başlık rengi
+                            navigationIconContentColor = Color.White          -> Bardaki ikonu rengi
+                            actionIconContentColor = Color.White           -> Actionsdaki ikon rengi
+
+bottomBar = {BottomAppBar(){}}                                                     -> Alta bar ekler
+            containerColor = Color.LightGray                                       -> Arkaplan rengi
+            contentColor = Color.Black                                        -> İçindekilerin rengi
+
+floatingActionButton = {FloatingActionButton(){}}                              -> Yuzen button ekler
+            onClick = {}                                                            -> Tıklandığında (Zorunlu)
+            containerColor = Color.LightGray                                       -> Arkaplan rengi
+            contentColor = Color.Black                                        -> İçindekilerin rengi
+
+actions = {}                                                -> Aksiyon (Dropdown gibi şeyler ekleme)
+
+
+MOTİFİERS { // @OptIn(ExperimentalMaterial3Api::class) olmadan hata verir (ilerde kaldırılabilir)
+Scaffold -> Bar ekler
+}
