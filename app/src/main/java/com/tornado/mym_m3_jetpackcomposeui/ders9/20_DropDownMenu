@@ -1,0 +1,16 @@
+NON-MOTİFİERS { // @OptIn(ExperimentalMaterial3Api::class) olmadan hata verir (ilerde kaldırılabilir)
+DropdownMenu ->
+}
+
+onDismissRequest = {menuAcikMi = false}                     -> Ne zaman dropdown penceresi kapanacak
+
+expanded = menuAcikMi                                       -> Dropdown penceresi açık-kapalu durumu
+
+DropdownMenuItem()                                                       -> Pencere Girici Oluşturma
+text = { Text("Ayarlar") }
+onClick = {menuAcikMi = false}
+
+
+MOTİFİERS // @OptIn(ExperimentalMaterial3Api::class) olmadan hata verir (ilerde kaldırılabilir){
+
+}

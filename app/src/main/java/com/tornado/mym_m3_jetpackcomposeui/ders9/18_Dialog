@@ -1,0 +1,19 @@
+NON-MOTİFİERS { // @OptIn(ExperimentalMaterial3Api::class) olmadan hata verir (ilerde kaldırılabilir)
+Dialog -> Açılır pencere yapma
+}
+
+onDismissRequest = {pencerAcikMi = false}                     -> Ne zaman dialog penceresi kapanacak
+
+title = { Text("Emin misin?") }                                                            -> Başlık
+
+icon = {Icon()}                                                           -> Başlık üstüne Icon ekle
+
+text = {Text("Bu işlem geri alınamaz. Yapmak istediğine emin misin?")}            -> Açıklama yazısı
+
+dismissButton = {TextButton(onClick = { pencerAcikMi = false}){}}                   -> Reddet button
+
+dismissButton = {Button(onClick = { pencerAcikMi = false}){}}                        -> Kabul button
+
+MOTİFİERS // @OptIn(ExperimentalMaterial3Api::class) olmadan hata verir (ilerde kaldırılabilir){
+Dialog -> Açılır pencere yapma
+}

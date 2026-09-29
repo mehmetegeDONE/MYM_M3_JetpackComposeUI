@@ -1,6 +1,6 @@
 NON-MOTİFİERS {
 LazyColumn -> Fori mantığında çalışan, optimize version
-}
+} item {} ve items(count = 10) {} i -> LAMBDA
 
 contentPadding = PaddingValues()
                             all = 16.dp                                   -> Heryerden padding ekler

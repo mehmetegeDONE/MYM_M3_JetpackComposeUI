@@ -36,6 +36,9 @@ import com.tornado.mym_m3_jetpackcomposeui.ders8.D383_LazyRow
 import com.tornado.mym_m3_jetpackcomposeui.ders8.D385_RehberUygulama
 import com.tornado.mym_m3_jetpackcomposeui.ders8.odev.KartListesi
 import com.tornado.mym_m3_jetpackcomposeui.ders8.odev.KartListesi2
+import com.tornado.mym_m3_jetpackcomposeui.ders9.D392_Scaffold
+import com.tornado.mym_m3_jetpackcomposeui.ders9.D393_AlertDialog
+import com.tornado.mym_m3_jetpackcomposeui.ders9.D394_DropDownMenu
 import com.tornado.mym_m3_jetpackcomposeui.proje.projeKullaniciKayitSistemi
 import com.tornado.mym_m3_jetpackcomposeui.ui.theme.MYM_M3_JetpackComposeUITheme
 
@@ -45,7 +48,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent { // setContent bloğu, ekrana çizilecek Compose içeriğini (temamızı ve iskeletimizi) tanımlar
             MYM_M3_JetpackComposeUITheme {
-                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
+                /*Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Box(modifier = Modifier.padding(innerPadding)) {
                         // O anki dersin ana ekranını buraya yazacağız.
 
@@ -89,9 +92,17 @@ class MainActivity : ComponentActivity() {
                         // D383_DinamikListeUretimi()
                         // D385_RehberUygulama()
                         // KartListesi()
-                        KartListesi2()
+                        // KartListesi2()
+
+                        // DERS 9
+                        // D393_AlertDialog()
+                        // D394_DropDownMenu()
                     }
-                }
+
+                }*/
+
+                 D392_Scaffold()
+
             }
         }
     }
